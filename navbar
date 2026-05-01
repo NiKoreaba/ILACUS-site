@@ -1,0 +1,7 @@
+export default function Navbar() {
+  return (
+    <nav style={{ padding: 20 }}>
+      <a href="/">EN</a> | <a href="/es">ES</a>
+    </nav>
+  );
+}
