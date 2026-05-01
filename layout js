@@ -1,0 +1,12 @@
+export const metadata = {
+  title: "ILACUS ABA Therapy",
+  description: "Unlocking potential through compassion"
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
