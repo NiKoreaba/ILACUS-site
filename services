@@ -1,0 +1,12 @@
+export default function Services() {
+  return (
+    <section style={{ padding: 50 }}>
+      <h2>Our Services</h2>
+      <ul>
+        <li>ABA Therapy</li>
+        <li>Behavior Assessments</li>
+        <li>Parent Training</li>
+      </ul>
+    </section>
+  );
+}
